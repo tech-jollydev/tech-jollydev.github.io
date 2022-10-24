@@ -41,6 +41,39 @@
 						  "name": "esptool_py"
 						}
                     ]
+                },
+				{
+                    "name":"Jolly AVR Boards",
+                    "architecture":"avr",
+                    "version":"1.0.1",
+                    "category":"jolly-dev",
+                    "url":"https://github.com/tech-jollydev/jolly-arduino-platform/releases/download/v1.0.1/jollyavr_1.0.1.zip",
+                    "archiveFileName":"jollyavr_1.0.1.zip",
+                    "checksum":"SHA-256:D881988787511410886C8498F8A602F422CFB0ECC08EBCB43F2D61519C18E6F6",
+                    "size":"5821375",
+                    "help":{ "online":"https://jolly-dev.com/" },
+                    "boards":
+                    [
+                        {"name": "Jolly"}
+                    ],
+                    "toolsDependencies":
+                    [
+                        {
+                          "name": "avr-gcc",
+                          "packager": "arduino",
+                          "version": "7.3.0-atmel3.6.1-arduino7"
+                        },
+                        {
+                          "name": "avrdude",
+                          "packager": "arduino",
+                          "version": "6.3.0-arduino17"
+                        },
+						{
+						  "packager": "esp32",
+						  "version": "3.3.0",
+						  "name": "esptool_py"
+						}
+                    ]
                 }
             ]
         }
