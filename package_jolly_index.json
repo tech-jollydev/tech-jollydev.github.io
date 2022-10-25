@@ -74,6 +74,34 @@
 						  "name": "esptool_py"
 						}
                     ]
+                },
+				{
+                    "name":"Jolly advanced",
+                    "architecture":"esp8285",
+                    "version":"1.0.0",
+                    "category":"jolly-dev",
+                    "url":"https://github.com/tech-jollydev/jolly-arduino-esp8285-platform/releases/download/v1.0.0/jollyesp8285_1.0.0.zip",
+                    "archiveFileName":"jollyesp8285_1.0.0.zip",
+                    "checksum":"SHA-256:757E0832FECF4178D7F526695070F8C8DDC1A3CB4398549D3BC76BB0F9FA01E3",
+                    "size":"33102756",
+                    "help":{ "online":"https://jolly-dev.com/" },
+                    "boards":
+                    [
+                        {"name": "Jolly-esp8285"}
+                    ],
+                    "toolsDependencies":
+                    [
+                        {
+                          "packager": "esp8266",
+                          "version": "2.5.0-4-b40a506",
+                          "name": "xtensa-lx106-elf-gcc"
+                        },
+						{
+						  "packager": "esp32",
+						  "version": "3.3.0",
+						  "name": "esptool_py"
+						}
+                    ]
                 }
             ]
         }
